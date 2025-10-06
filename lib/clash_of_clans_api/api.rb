@@ -44,6 +44,8 @@ module ClashOfClansApi
 		define_endpoint :builderbaseleagues, method: :get, endpoint:                                           'builderbaseleagues'
 		define_endpoint :league,             method: :get, endpoint: proc { |           league_id            |            "leagues/#{ApiFrame::Utils.url_escape(           league_id)}"                                                  }
 		define_endpoint :league_seasons,     method: :get, endpoint: proc { |           league_id            |            "leagues/#{ApiFrame::Utils.url_escape(           league_id)}/seasons"                                          }
+		define_endpoint :leaguetier,         method: :get, endpoint: proc { |      league_tier_id            |        "leaguetiers/#{ApiFrame::Utitls.url_escape(league_tier_id)}"                                                       }
+		define_endpoint :leaguetiers,        method: :get, endpoint:                                                  'leaguetiers'
 		define_endpoint :warleague,          method: :get, endpoint: proc { |        warleague_id            |         "warleagues/#{ApiFrame::Utils.url_escape(        warleague_id)}"                                                  }
 		define_endpoint :warleagues,         method: :get, endpoint:                                                   'warleagues'
 		
