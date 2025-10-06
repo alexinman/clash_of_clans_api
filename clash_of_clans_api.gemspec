@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
 	spec.version  = ClashOfClansApi::VERSION
 	spec.authors  = ['expeehaa']
 	spec.email    = ['expeehaa@outlook.com']
-	spec.summary  = 'Client library for interacting with the ClashOfClans API.'
+	spec.summary  = 'Client library for interacting with the ClashOfClans API'
 	spec.homepage = 'https://github.com/expeehaa/clash_of_clans_api'
 	
 	spec.metadata['allowed_push_host']     = 'https://rubygems.org'
